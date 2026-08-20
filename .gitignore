@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+.venv/
+env/
+venv/
+ENV/
+
+# Build Outputs & Bundles
+frontend/dist/
+frontend/build/
+dist/
+build/
+bin/
+obj/
+backend/bin/
+backend/obj/
+*.user
+*.suo
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/__pycache__/
+backend/ingestion/__pycache__/
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+~$*
+
+# Logs & Temporary Files
+*.log
+*.tmp
+temp/
+scratch/
+test/
+tests/
+.system_generated/
+
+# Temporary Debug Files & Temporary Lock Files
+copy_screenshots.py
+copy_pdf_assets_to_artifacts.py
+convert_pdf_to_images.py
+pdf_page_previews/
+GUIDE_Test-selected-columns.csv
+20509613_*
+~$*
