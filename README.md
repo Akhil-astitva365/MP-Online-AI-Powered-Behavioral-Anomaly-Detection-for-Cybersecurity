@@ -2,7 +2,7 @@
 
 ## Executive Summary & System Architecture
 
-This solution provides a dynamic, sequence-aware **Behavioral Anomaly Detection System** that analyzes enterprise access logs as continuous sequence events to detect zero-day lateral movement, stolen credential abuse, brute force attacks, and stealthy exfiltration using a **Cascaded LightGBM Detection Engine**.
+This solution provides a dynamic, sequence-aware **Behavioral Anomaly Detection System** that analyzes   enterprise access logs as continuous sequence events to detect zero-day lateral movement, stolen credential abuse, brute force attacks, and stealthy exfiltration using a **Cascaded LightGBM Detection Engine**.
 
 ```
                                   +---------------------------------------+
