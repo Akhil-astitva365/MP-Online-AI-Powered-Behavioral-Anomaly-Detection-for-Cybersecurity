@@ -114,11 +114,11 @@ This boots both the backend API server (`http://localhost:8000`) and the fronten
 ## 4. Live Application Interface & Screenshots
 
 
-### Figure 5.1: Executive Alert Feed & SHAP Panel (Dark Theme)
+### Figure 5.1: Executive Alert Feed & SHAP Panel (Dark-Theme)
 ![Executive Alert Feed & SHAP Panel](pdf_assets/alert_feed_dark.png)
 
-### Figure 5.2: Multi-Entity Process Drilldown & 24-Hour Heatmap Matrix (Dark Theme)
+### Figure 5.2: Multi-Entity Process Drilldown & 24-Hour Heatmap Matrix (Dark-Theme)
 ![Multi-Entity Process Drilldown (Dark Theme)](pdf_assets/drilldown_dark.png)
 
-### Figure 5.3: Multi-Entity Process Drilldown Dashboard (Light Theme)
+### Figure 5.3: Multi-Entity Process Drilldown Dashboard (Light-Theme)
 ![Multi-Entity Process Drilldown (Light Theme)](pdf_assets/drilldown_light.png)
