@@ -3,7 +3,7 @@ from fastapi import WebSocket
 
 class ConnectionManager:
     """
-    WebSockets Manager for real-time SOC alert streaming and live threat broadcasts.
+    WebSockets Manager for real time SOC alert streaming and live threat broadcasts.
     """
     def __init__(self):
         self.active_connections: List[WebSocket] = []
