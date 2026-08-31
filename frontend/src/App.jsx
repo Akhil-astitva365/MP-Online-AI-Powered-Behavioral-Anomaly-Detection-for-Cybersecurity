@@ -3,7 +3,7 @@ import { ShieldAlert, Sun, Moon, RefreshCw, Radio, Sparkles } from 'lucide-react
 import AlertQueue from './components/AlertQueue';
 import ExplainabilityPanel from './components/ExplainabilityPanel';
 import EntityHistory from './components/EntityHistory';
-import AttackSimulator from './components/AttackSimulator';
+import AttackSimulator from './components/AttackSimulator';  
 import ModelMetrics from './components/ModelMetrics';
 import WorldMap from './components/WorldMap';
 import AttackGraph from './components/AttackGraph';
