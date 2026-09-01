@@ -46,7 +46,7 @@ public class SimulationController : ControllerBase
         {
             success = true,
             active = false,
-            message = "Live simulation stream paused."
+            message = "Live simulation stream paused for now."
         });
     }
 
