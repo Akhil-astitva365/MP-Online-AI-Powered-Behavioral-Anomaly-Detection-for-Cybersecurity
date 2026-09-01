@@ -34,7 +34,7 @@ public class FeedbackController : ControllerBase
     {
         // Pass the incoming request payload to the service to be saved in the database
         var entry = _engineService.SaveFeedback(req);
-        
+        var entities = _engineService.GetEntites();
         // Return a 200 OK response wrapping a composite object.
         // This includes a success flag, the newly created feedback entry, 
         // and an updated summary of all feedback to immediately update the frontend UI.
