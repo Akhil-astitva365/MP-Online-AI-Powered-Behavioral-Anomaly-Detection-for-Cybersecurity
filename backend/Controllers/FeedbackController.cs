@@ -22,7 +22,7 @@ public class FeedbackController : ControllerBase
     public IActionResult SubmitFeedback([FromBody] FeedbackRequest req)
     {
         var entry = _engineService.SaveFeedback(req);
-        var entities = _engineService.GetEntites();
+        // var entities = _engineService.GetEntites();
         
         return Ok(new
         {
