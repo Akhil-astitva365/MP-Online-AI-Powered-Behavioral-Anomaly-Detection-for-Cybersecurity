@@ -24,7 +24,7 @@ public class StatusController : ControllerBase
         {
             Status = "online",
             Mode = "REAL_PRODUCTION_DATA",
-            SystemName = "SentinelAI Behavioral Anomaly Engine (ASP.NET Core)",
+            SystemName = "SentinelAI Behavioral Anomaly Engine (ASP.NET Core)  ",
             Version = "2.4.0",
             TotalEventsProcessed = 15000 + _streamerService.ProcessedEventsCount,
             RealEventsIngested = _streamerService.ProcessedEventsCount,
