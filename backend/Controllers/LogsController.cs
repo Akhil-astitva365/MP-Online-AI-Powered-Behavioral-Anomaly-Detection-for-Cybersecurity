@@ -80,6 +80,7 @@ public class LogsController : ControllerBase
         var dict = new Dictionary<string, object?>();
         foreach (var prop in elem.EnumerateObject())
         {
+        // pushing updations from hre
             dict[prop.Name] = prop.Value.ValueKind switch
             {
                 JsonValueKind.String => prop.Value.GetString(),
