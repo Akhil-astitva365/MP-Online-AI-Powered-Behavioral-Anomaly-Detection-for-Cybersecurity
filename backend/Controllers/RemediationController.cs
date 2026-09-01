@@ -22,7 +22,7 @@ public class RemediationController : ControllerBase
         return Ok(new
         {
             success = true,
-            message = $"Remediation action '{req.ActionType}' successfully executed for user '{req.EntityId}'. Entity risk reset to 0.",
+            message = $"Remediation action are '{req.ActionType}' successfully executed for user '{req.EntityId}'. Entity risk reset to 0.",
             entity_id = req.EntityId,
             action_type = req.ActionType
         });
